@@ -1,0 +1,11 @@
+[
+  {
+    "id": "base",
+    "routes": ["add-headers:enabled", "get-images:success", "like-images:success", "get-image:success", "get-image:real-image", "get-image:filter"]
+  },
+  {
+    "id": "no-headers",
+    "from": "base",
+    "routes": ["add-headers:disabled"]
+  }
+]
