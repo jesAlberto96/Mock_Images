@@ -475,5 +475,19 @@ module.exports = [
         },
       }
     ]
+  },
+  {
+    id: "create-image", // id of the route
+    url: "/api/images", // url in path-to-regexp format
+    method: "POST", // HTTP method
+    variants: [
+      {
+        id: "success", // id of the variant
+        type: "status", // variant type
+        options: {
+          status: 204,
+        }
+      },
+    ]
   }
 ];

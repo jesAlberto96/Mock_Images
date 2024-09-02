@@ -1,7 +1,7 @@
 [
   {
     "id": "base",
-    "routes": ["add-headers:enabled", "get-images:success", "like-images:success", "get-image:success", "get-image:real-image", "get-image:filter"]
+    "routes": ["add-headers:enabled", "get-images:success", "like-images:success", "get-image:success", "get-image:real-image", "get-image:filter", "create-image:success"]
   },
   {
     "id": "no-headers",
